@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Hero from './Components/Hero/Hero';
+import Products from './Components/Products/Products';
+import WCU from './Components/WhyChooseUs/WCU';
+import GITouch from './Components/GetInTouch/GITouch';
+import FAQ from './Components/FAQ/FAQ';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header/>
+      <hr/>
+      <Hero/>
+      <Products/>
+      <WCU/>
+      <GITouch/>
+      <FAQ/>
+      <Footer/>
     </div>
   );
 }

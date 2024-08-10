@@ -1,0 +1,23 @@
+.git{
+    background-color: #edf7ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.git-btn{
+    background-color: #28a745;
+    font-size: 14px;
+    color: white;
+    border: none;
+    padding: 7px;
+}
+
+.git p{
+    font-size: 27px;
+    font-weight:500;
+}
